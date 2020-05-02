@@ -10,13 +10,13 @@
 * ID : Unique ID
 * type : Source type : 천체의 분류 (예측을 해야 하는 변수입니다.)
 * fiberID : 관측에 사용된 광섬유의 구분자
-다음 밝기 변수들은 변수명에 u, g, r, i, z 첨자가 붙어있다.
-해당 알파벳들은 파장대를 의미하며, 각각
-u : Ultraviolet
-g : Green
-r : Red 
-i : Near Infrared
-z : Infrared
+* 다음 밝기 변수들은 변수명에 u, g, r, i, z 첨자가 붙어있고,
+해당 알파벳들은 파장대를 의미하는데 각각
+u : Ultraviolet, 
+g : Green, 
+r : Red, 
+i : Near Infrared, 
+z : Infrared 를 나타낸다.
 * psfMag : (Point spread function magnitudes) 먼 천체를 한 점으로 가정하여 측정한 빛의 밝기입니다.
 * fiberMag : (Fiber magnitudes) 3인치 지름의 광섬유를 사용하여 광스펙트럼을 측정합니다. 광섬유를 통과하는 빛의 밝기입니다.
 * petroMag : (Petrosian Magnitudes) 은하처럼 뚜렷한 표면이 없는 천체에서는 빛의 밝기를 측정하기 어렵습니다. 천체의 위치와 거리에 상관없이 빛의 밝기를 비교하기 위한 수치입니다.
