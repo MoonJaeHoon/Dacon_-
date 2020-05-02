@@ -1,7 +1,7 @@
 # Dacon_Sloan-Digital-Sky-Survey_SDSS
 #### 딥러닝 여러 기법을 공부하고 적용함
 #### Score = 0.36573(리더보드 상위 21%)
-https://dacon.io/myprofile/226309/overview/
+Dacon 프로필 : https://dacon.io/myprofile/226309/overview/
 
 # 활용된 주요 방법론 :
 ### 1. 첫 노드수 & 총 layer 갯수 결정
