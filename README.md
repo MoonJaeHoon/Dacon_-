@@ -14,7 +14,8 @@
 - (reducelronPleteau)와 같이 일정 기간(red_patience) 기다렸다가 lr을 감소시키는 방법도 있고
 - 코사인 스케쥴러도 있음
 ### 4. Drop Out
-- 특정 layer에서 노드가 제 기능을 하지 못하게 하여 
+- 특정 layer에서 노드가 제 기능을 하지 못하게 하여 학습시켜서 
+- 적합시킨 모델을 사용할 때에는 모든 노드를 다 사용하여 Predict함.
 ### 5. Early Stopping with saving best weight
 - 과대적합 방지
 ### 6. Activation Function
