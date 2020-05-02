@@ -1,7 +1,27 @@
 # Dacon_Sloan-Digital-Sky-Survey_SDSS
-* 딥러닝 여러 기법을 공부하고 적용함
 * Score = 0.36573(리더보드 상위 21%)
 * Dacon 프로필 : https://dacon.io/myprofile/226309/overview/
+* 딥러닝 여러 기법을 공부하고 적용함
+
+# Data Description
+* 데이터출처 : https://newfront.dacon.io/competitions/official/235573/data/
+## train.csv (199991 rows, 24 columns) / test.csv (10009 rows, 22 columns)
+
+* ID : Unique ID
+* type : Source type : 천체의 분류 (예측을 해야 하는 변수입니다.)
+* fiberID : 관측에 사용된 광섬유의 구분자
+다음 밝기 변수들은 변수명에 u, g, r, i, z 첨자가 붙어있다.
+해당 알파벳들은 파장대를 의미하며, 각각
+u : Ultraviolet
+g : Green
+r : Red 
+i : Near Infrared
+z : Infrared
+* psfMag : (Point spread function magnitudes) 먼 천체를 한 점으로 가정하여 측정한 빛의 밝기입니다.
+* fiberMag : (Fiber magnitudes) 3인치 지름의 광섬유를 사용하여 광스펙트럼을 측정합니다. 광섬유를 통과하는 빛의 밝기입니다.
+* petroMag : (Petrosian Magnitudes) 은하처럼 뚜렷한 표면이 없는 천체에서는 빛의 밝기를 측정하기 어렵습니다. 천체의 위치와 거리에 상관없이 빛의 밝기를 비교하기 위한 수치입니다.
+* modelMag : (Model magnitudes) 천체 중심으로부터 특정 거리의 밝기입니다.
+
 
 # 활용된 주요 방법론 :
 ### 1. 첫 노드수 & 총 layer 갯수 결정
